@@ -1,0 +1,56 @@
+body {
+    background-image: url("https://www.lifewire.com/thmb/kG1cVU-x_YRHeLeKlud2v_QgklM=/3000x2000/filters:no_upscale():max_bytes(150000):strip_icc()/calculator-man-5b449ad346e0fb0037b3f764.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    font-family: "Calibri";
+}
+button {
+    background-color: rgb(101,182,201);
+    color: white;
+    font-size: 80%;
+    border-radius: 12%;
+}
+button:hover {
+    background-color:rgb(143,224,243);
+}
+button:disabled {
+    background-color:inherit;
+    border: inherit;
+}
+#eredmenyek {
+    background-color: white;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-weight: bold;
+    border: 2pt solid black;
+    border-radius: 8%;
+    text-align: center;
+    font-size: 150%;
+}
+table {
+    border: 2pt solid black;
+    border-radius: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150%;
+    background-color:white;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+}
+div {
+    background-color: white;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top:inherit;
+    border: 2pt solid black;
+    border-radius: 8%;
+    text-align: center;
+    font-size: 150%;
+}

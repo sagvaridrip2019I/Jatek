@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számológép játké</title>
+    <script src="projektszamol.js"></script>
+    <link rel="stylesheet" href="projektszamol.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Elérendő szám:</td>
+            <td id="szam"></td>
+        </tr>
+        <tr>
+            <td>Pontok:</td>
+            <td id="pont"></td>
+        </tr>
+        <tr>
+            <td style=color:gold;>Rekord:</td>
+            <td style=color:gold id="rekord"></td>
+        </tr>
+        <tr>
+            <td>Idő:</td>
+            <td id="szamlalo"></td>
+        </tr>
+    </table>
+
+    <h1 id="szam"></h1>
+    <p id="pont"></p>
+    <table>
+        <tr>
+            <td>Első szám:</td>
+            <td><input type="number" id="elsoszam"></td>
+        </tr>
+        <tr>
+            <td>Művelet:</td>
+            <td><input id="muvelet"></td>
+        </tr>
+        <tr>
+            <td>Második szám:</td>
+            <td><input type="number" id="masodikszam"></td>
+        </tr>
+        <tr>
+            <td><button onclick="start(); ido = setTimeout(stop, 30000); szamlalobe()" id="gomb1">Játék kezdése!</button></td>
+            <td><button onclick="szamol()" id="tovabb" disabled>Tovább</button></td>
+        </tr>
+    </table>
+    <div id="eredmenyek">Előző játékok</div>
+    <div><b>Játékmenet:</b> Nyomj rá a <i>játék kezdése</i> gombra, majd az oldal tetején megjelenik egy szám 0-tól 1000-ig, majd neked ezt a számot a négy alap művelet egyikével elő kell állítanod.
+         De ha elrontasz egy számolást, vagy ha lejár az idő akkor a játék véget ér.</div>
+</body>
+</html>
